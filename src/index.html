@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+
+<link rel="stylesheet" href="style.css">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="myjs.js"></script>
+
+</head>
+<body>
+
+    <div id="wrapper">
+      
+    
+        <!-- Sidebar -->
+        <nav class="nav nav-tabs navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab href="#brand">
+                       Brand
+                    </a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#home">Home</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#about">About</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#events">Events</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#team">Team</a>
+                </li>
+                <li class="dropdown">
+                   <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#work">Work</a>                 
+                </li>
+                <li>
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#services">Services</a>
+                </li>
+                <li>
+                    <a class="nav-item nav-link" role="tab" data-toggle="tab" href="#contact">Contact</a>
+                </li>                
+            </ul>
+        </nav>
+
+  
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+            <div class="container">
+                
+              <div class="tab-content">
+  <div class="tab-pane fade show active" id="home" role="tabpanel" >Home</div>
+  <div class="tab-pane fade" id="team" role="tabpanel" >team</div>
+  <div class="tab-pane fade" id="services" role="tabpanel" >services</div>
+   <div class="tab-pane fade" id="about" role="tabpanel" >About</div>
+  <div class="tab-pane fade" id="events" role="tabpanel" >Events</div>
+   <div class="tab-pane fade" id="work" role="tabpanel" >Work</div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" >Contact</div>
+</div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+ 
+
+</body>
+</html>
